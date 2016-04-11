@@ -1,3 +1,4 @@
+package Dibujable;
 
 // fichero Dibujable.java
 import java.awt.Graphics;

@@ -1,10 +1,30 @@
-// fichero Circulo.java
+package Dibujable;
+//Circulo.java
 public class Circulo extends Geometria {
 	static int numCirculos = 0;
 	public static final double PI = 3.14159265358979323846;
 	private double x;
 	private double y;
 	private double r;
+
+	public Circulo(Circulo c) {
+		this(c.x, c.y, c.r);
+	}
+
+	public Circulo() {
+		this(0.0, 0.0, 1.0);
+	}
+
+	public Circulo(double x, double y, double r) {
+		this.x = x;
+		this.y = y;
+		this.r = r;
+		numCirculos++;
+	}
+
+	public Circulo(double r) {
+		this(0.0, 0.0, r);
+	}
 
 	public double getX() {
 		return x;
@@ -28,25 +48,6 @@ public class Circulo extends Geometria {
 
 	public void setR(double r) {
 		this.r = r;
-	}
-
-	public Circulo(double x, double y, double r) {
-		this.x = x;
-		this.y = y;
-		this.r = r;
-		numCirculos++;
-	}
-
-	public Circulo(double r) {
-		this(0.0, 0.0, r);
-	}
-
-	public Circulo(Circulo c) {
-		this(c.x, c.y, c.r);
-	}
-
-	public Circulo() {
-		this(0.0, 0.0, 1.0);
 	}
 
 	public double perimetro() {

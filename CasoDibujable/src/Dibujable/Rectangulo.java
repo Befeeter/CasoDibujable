@@ -1,3 +1,4 @@
+package Dibujable;
 // fichero Rectangulo.java
 public class Rectangulo extends Geometria {
 	// definición de variables miembro de la claes

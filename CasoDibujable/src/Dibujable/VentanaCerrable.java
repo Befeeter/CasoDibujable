@@ -1,3 +1,4 @@
+package Dibujable;
 
 // Fichero VentanaCerrable.java
 import java.awt.*;

@@ -1,3 +1,4 @@
+package Dibujable;
 
 // fichero Ejemplo1.java
 import java.util.ArrayList;

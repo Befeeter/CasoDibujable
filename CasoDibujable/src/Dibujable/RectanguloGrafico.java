@@ -1,3 +1,4 @@
+package Dibujable;
 
 // Fichero RectanguloGrafico.java
 import java.awt.Graphics;
