@@ -1,4 +1,4 @@
-package Dibujable;
+package org.dibujable;
 
 // fichero PanelDibujo.java
 import java.awt.*;

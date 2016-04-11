@@ -1,4 +1,4 @@
-package Dibujable;
+package org.dibujable;
 // fichero Geometria.java
 public abstract class Geometria {
 	// clase abstracta que no puede tener objetos

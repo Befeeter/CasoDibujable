@@ -1,4 +1,4 @@
-package Dibujable;
+package org.dibujable;
 
 // Fichero RectanguloGrafico.java
 import java.awt.Graphics;

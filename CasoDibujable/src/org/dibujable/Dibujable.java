@@ -1,4 +1,4 @@
-package Dibujable;
+package org.dibujable;
 
 // fichero Dibujable.java
 import java.awt.Graphics;

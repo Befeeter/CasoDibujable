@@ -1,4 +1,4 @@
-package Dibujable;
+package org.dibujable;
 
 // fichero CirculoGrafico.java
 import java.awt.Graphics;

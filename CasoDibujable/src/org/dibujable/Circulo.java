@@ -1,4 +1,4 @@
-package Dibujable;
+package org.dibujable;
 //Circulo.java
 public class Circulo extends Geometria {
 	static int numCirculos = 0;

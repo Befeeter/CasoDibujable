@@ -1,4 +1,4 @@
-package Dibujable;
+package org.dibujable;
 
 // fichero Ejemplo1.java
 import java.util.ArrayList;
