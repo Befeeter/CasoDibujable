@@ -50,10 +50,12 @@ public class Circulo extends Geometria {
 		this.r = r;
 	}
 
+	@Override
 	public double perimetro() {
 		return 2.0 * PI * r;
 	}
-
+	
+	@Override
 	public double area() {
 		return PI * r * r;
 	}
