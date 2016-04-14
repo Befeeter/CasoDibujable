@@ -1,11 +1,11 @@
 package org.dibujable;
 //Circulo.java
-public class Circulo extends Geometria {
+public class Circulo implements Geometria {
 	static int numCirculos = 0;
 	public static final double PI = 3.14159265358979323846;
-	private double x;
-	private double y;
-	private double r;
+	 double x;
+	 double y;
+	 double r;
 
 	public Circulo(Circulo c) {
 		this(c.x, c.y, c.r);
