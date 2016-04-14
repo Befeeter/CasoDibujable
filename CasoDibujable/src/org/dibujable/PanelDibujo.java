@@ -19,7 +19,7 @@ public class PanelDibujo extends Panel {
 	@Override
 	public void paint(Graphics g) {
 		Dibujable dib;
-		Iterator it;
+		Iterator<Geometria> it;
 		it = v.iterator();
 		while (it.hasNext()) {
 			dib = (Dibujable) it.next();
